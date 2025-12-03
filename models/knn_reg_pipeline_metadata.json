@@ -1,0 +1,33 @@
+{
+  "target_name": "Quality of Sleep",
+  "best_k": 13,
+  "numeric_columns": [
+    "Person ID",
+    "Age",
+    "Sleep Duration",
+    "Physical Activity Level",
+    "Stress Level",
+    "Heart Rate",
+    "Daily Steps",
+    "Systolic",
+    "Diastolic"
+  ],
+  "categorical_columns": [
+    "Gender",
+    "Occupation",
+    "BMI Category",
+    "Blood Pressure",
+    "Sleep Disorder"
+  ],
+  "cv_folds": 5,
+  "scorings": {
+    "cv_best_rmse": 0.30365132100848863,
+    "cv_best_mae": 0.10628422425032595,
+    "train_rmse": 0.29444737037938407,
+    "train_mae": 0.0980190378183689,
+    "train_r2": 0.9378737115467851,
+    "test_rmse": 0.2487047313432234,
+    "test_mae": 0.07794871794871795,
+    "test_r2": 0.9589996471738346
+  }
+}

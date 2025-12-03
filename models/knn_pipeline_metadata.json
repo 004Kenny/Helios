@@ -1,0 +1,42 @@
+{
+  "target_name": "Sleep Disorder",
+  "classes_": [
+    0,
+    1
+  ],
+  "best_k": 13,
+  "numeric_columns": [
+    "Person ID",
+    "Age",
+    "Sleep Duration",
+    "Quality of Sleep",
+    "Physical Activity Level",
+    "Stress Level",
+    "Heart Rate",
+    "Daily Steps"
+  ],
+  "categorical_columns": [
+    "Gender",
+    "Occupation",
+    "BMI Category",
+    "Blood Pressure"
+  ],
+  "cv_folds": 5,
+  "scorings": {
+    "cv_best_f1": 0.8873483038700429,
+    "cv_best_recall_pos": 0.9346153846153845,
+    "cv_best_acc": 0.8786666666666665,
+    "train_acc": 0.8790322580645161,
+    "train_f1": 0.8837209302325582,
+    "train_recall_pos": 0.9193548387096774,
+    "train_precision_pos": 0.8507462686567164,
+    "train_roc_auc": 0.9674817898022893,
+    "train_pr_auc": 0.9659316546577169,
+    "test_acc": 0.9354838709677419,
+    "test_f1": 0.9333333333333333,
+    "test_recall_pos": 0.9333333333333333,
+    "test_precision_pos": 0.9333333333333333,
+    "test_roc_auc": 0.98125,
+    "test_pr_auc": 0.9745543345543346
+  }
+}

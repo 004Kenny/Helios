@@ -1,0 +1,36 @@
+{
+  "config": {
+    "csv_path": "/Users/kenny/HELIOS-AI/data/Sleep_health_and_lifestyle_dataset.csv",
+    "interval_sec": 300,
+    "k_grid": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15
+    ],
+    "cv_folds": 5,
+    "test_size": 0.2,
+    "min_new_rows": 1,
+    "min_r2_improvement": 0.0,
+    "enable": true
+  },
+  "state": {
+    "running": true,
+    "last_tick": "2025-10-15 22:58:50",
+    "last_action": "[2025-10-15 22:58:50] No change detected; skipping.",
+    "logs": [
+      "[2025-10-15 22:18:49] Autopilot started.",
+      "[2025-10-15 22:23:49] No change detected; skipping.",
+      "[2025-10-15 22:28:49] No change detected; skipping.",
+      "[2025-10-15 22:33:49] No change detected; skipping.",
+      "[2025-10-15 22:38:49] No change detected; skipping.",
+      "[2025-10-15 22:43:49] No change detected; skipping.",
+      "[2025-10-15 22:48:49] No change detected; skipping.",
+      "[2025-10-15 22:53:50] No change detected; skipping.",
+      "[2025-10-15 22:58:50] No change detected; skipping."
+    ]
+  }
+}
